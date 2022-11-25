@@ -1,5 +1,37 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
-  return <h1>Home</h1>;
+  return <html>
+    <head>
+      <meta charset='UTF-8'/>
+      <title>Custom Creations Jewelry</title>
+      <link rel='stylesheet' href='index.css'/>
+      <strong><h1>Custom Creations</h1></strong>
+    </head>
+    
+    <body><div  class='center'>
+            <h2>Welcome to a world where YOU are the designer</h2>
+            Customized Jewelry
+            <hr></hr>
+            <h1><div class='front'><Link to="/type">START HERE</Link></div></h1>
+        </div>
+        <div class='start'>
+              <hr></hr>
+            <ul>
+                <li><Link to="/cart">Cart</Link></li>
+                <li><Link to="/color">COLOR</Link></li>
+                <li><Link to="/style">STYLE</Link></li>
+                <li><Link to="/type">TYPE</Link></li>
+                <li class='active'><Link to="/home">Home</Link></li>
+            </ul>
+        </div>
+      </body>
+
+      <footer>
+        <p><a href="https://github.com/scarpenter7/CreativeProject2.git">GitHub Repo</a></p>
+      </footer>
+    </html>
+      
 };
 
 export default Home;

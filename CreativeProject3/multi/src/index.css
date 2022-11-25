@@ -11,3 +11,326 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  color: black;
+  background-color: white;
+}
+
+footer {
+  margin-top: auto;
+  padding: 10px;
+  background-color: gray;
+  color: black;
+  border-radius: 15px;
+  opacity: 0.8;
+  border: 2px solid black;
+}
+
+h1, h2, body {
+  padding-top: 20px;
+  font-family: "Goudy Old Style", "Century Gothic", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+a:visited {
+  color: gold;
+}
+
+a:active {
+  color: black;
+  
+}
+
+li a {
+  display: block;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+a:hover {
+  color: #D3D3D3;
+}
+
+li a:hover {
+  background-color: #D3D3D3;
+  color: black;
+}
+
+li a.active {
+  background-color: gray;
+  color: white;
+}
+
+a {
+  text-decoration: none; /*removes all underlines*/
+}
+
+.next {
+  font-size: 25px;
+  padding-bottom: 25px;
+  background-color: gray;
+}
+
+.start {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.start > div {
+  height: 230px;
+  width: 400px;
+  color: white;
+  margin: 20px;
+  padding-top: 200px;
+  font-size: 30px;
+  display: block;
+  background-color: gray;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: gray;
+}
+
+.type > div {
+  font-weight: bold;
+  height: 200px;
+  width: 20%;
+  color: white;
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 0px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  display: block;
+}
+
+.ring {
+  background-image: url("Rings.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bracelet {
+  background-image: url("Bracelets.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.anklet {
+  background-image: url("Anklet.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.choker {
+  background-image: url("Choker.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ring:hover {
+  filter: saturate(0%);
+}
+
+.bracelet:hover {
+  filter: saturate(0%);
+}
+
+.anklet:hover {
+  filter: saturate(0%);
+}
+
+.choker:hover {
+  filter: saturate(0%);
+}
+
+.style {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: gray;
+}
+
+.style > div {
+  font-weight: bold;
+  height: 200px;
+  width: 20%;
+  color: white;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 130px;
+  font-size: 30px;
+  display: block;
+}
+
+.plain {
+  background-color: silver;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.flowers {
+  background-color: silver;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pattern {
+  background-color: silver;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.random {
+  background-color: silver;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.plain:hover {
+  color: black;
+}
+
+.flowers:hover {
+  color: black;
+}
+
+.pattern:hover {
+  color: black;
+}
+
+.random:hover {
+  color: black;
+}
+
+
+ol {
+  background-color: gray;
+  height: 200px;
+  padding: 50px;
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+ol li {
+  width: 10%;
+  margin: 20px;
+}
+
+.red:hover, .orange:hover, .yellow:hover, .green:hover, .blue:hover, 
+.purple:hover, .gold:hover  {
+  filter: saturate(0%);
+}
+
+.silver:hover {
+  background-color: white;
+}
+
+.black:hover, .white:hover {
+  background-color: silver;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+  color: white
+}
+
+.blue {
+  background-color: blue;
+  color: white
+}
+
+.purple {
+  background-color: purple;
+  color: white
+}
+
+.black {
+  background-color: black;
+  color: white
+}
+
+.white {
+  border-color: gray;
+  border: 4px;
+  background-color: white;
+}
+
+.gold {
+  background-color: gold;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.front {
+  background-color: silver;
+  display: flex;
+  height: 500px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("Front.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.front:hover {
+  filter: saturate(40%);
+}
+
+.front a {
+  color: white;
+}
+
+.front a:hover {
+  color: black;
+}

@@ -1,0 +1,95 @@
+.home-bg {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-bg img {
+  width: 100%;
+}
+
+body {
+  color: black;
+  background-image: url(images/landscape.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #b8bde5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+  padding: 10px;
+  background-color: #ffe6db;
+  color: black;
+  border-radius: 15px;
+  opacity: 0.8;
+  border: 2px solid black;
+}
+
+h1 {
+    font-family: Helvetica;
+    color: black;
+}
+
+h2 {
+    padding-top: 25px;
+    font-family: Helvetica;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-family: Helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width:600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.buttons {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buttons > div {
+    border-radius: 15px;
+    background-color: #ffe6db;
+    border: 2px solid black;
+    height: 60px;
+    width: 200px;
+    padding-top: 30px;
+    font-size: 30px;
+    display: block;
+}
+
+.buttons > div:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+  body {
+    
+  }
+}

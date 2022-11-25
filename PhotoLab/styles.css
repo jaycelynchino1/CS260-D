@@ -1,0 +1,265 @@
+body {
+    color: black;
+    background-color: white;
+}
+
+h1 {
+    padding: 50px;
+    font-size: 40px;
+}
+
+h1, h2, body {
+    font-family: "Monospace", "Courier New", serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+
+.center h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+
+.new-flex-container a:visited {
+    color: white;
+}
+
+
+a:active {
+    color: black;
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+li a:hover {
+    background-color: #b2d8d8;
+    color: black;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+a {
+    text-decoration: none; /*removes all underlines*/
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+}
+
+.section {
+    color: #5C9297;
+    font-style: italic;
+}
+
+.section sign-up {
+    text-align: center;
+}
+
+.head {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}
+
+.page {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #b2d8d8;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+li a.active {
+    background-color: #5C9297;
+    color: white;
+}
+
+.photo-grid-container {
+    width: 900px;
+}
+
+.photo-grid-item {
+    width: 300px;
+}
+  
+.feature {
+    background-color: white;
+}
+
+.feature-lily {
+    color: white;
+    background-color: #5C9297;
+}
+
+.feature-plumeria {
+    color: white;
+    background-color: #5C9297;
+}
+
+.feature-birdofparadise {
+    color: white;
+    background-color: #5C9297;
+}
+
+.feature-hibiscus {
+    color: white;
+    background-color: #5C9297;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  object-fit: scale-down;
+  background-size: cover;
+}
+
+.img {
+    float: left;
+    padding-top: 50px;
+    padding-right: 25px;
+}
+
+.new-flex-container {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.new-flex-container > div {
+    height: 230px;
+    width: 400px;
+    color: white;
+    margin: 20px;
+    padding-top: 200px;
+    font-size: 30px;
+    display: block;
+}
+
+.new-flex-container:hover {
+    filter: saturate(50%);
+}
+
+.about-me {
+    background: url("https://ec2-13-56-248-19.us-west-1.compute.amazonaws.com/photolab/Reviews.html");
+    background-image: url("Sunset.jpg");
+    background-size: 250%;
+}
+
+.reviews {
+    background: url("https://ec2-13-56-248-19.us-west-1.compute.amazonaws.com/photolab/About_Me.html");
+    background-image: url("Ocean.jpg");
+    background-size: 150%;
+}
+
+.portfolio {
+    background: url("https://ec2-13-56-248-19.us-west-1.compute.amazonaws.com/photolab/Portfolio.html");
+    background-image: url("Clouds.jpg");
+    background-size: 250%;
+}
+
+.review p, h2 {
+    margin: 20px 200px;
+    text-align: left;
+}
+
+.sign-up h2 {
+    text-align: center;
+    color: black;
+}
+
+.left p {
+    text-align: left;
+    margin: 10px 200px;
+}
+
+@media (min-width: 401px) and (max-width: 960px) {
+    .about-me {
+        background-size: 500%;
+    }
+
+    .reviews {
+        background-size: 300%;
+    }
+    
+    .portfolio {
+        background-size: 500%;
+    }
+    
+    .page, .head {
+        width: 700px;
+    }
+    .review p, h2 {
+        margin: 20px 50px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 400px) {
+    .page, .head {
+        width: 300px;
+    }
+    
+    h1 {
+        padding: 20px;
+        font-size: 50px;
+    }
+    
+    h1, h2, body {
+        font-family: "Monospace", "Courier New", serif;
+        font-weight: normal;
+        font-style: normal;
+        text-align: left;
+    }
+    
+    .about-me {
+        background-size: 500%;
+    }
+
+    .reviews {
+        background-size: 300%;
+    }
+    
+    .portfolio {
+        background-size: 500%;
+    }
+}
+
