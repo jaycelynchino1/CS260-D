@@ -28,7 +28,7 @@ const Home = () => {
       </body>
 
       <footer>
-        <p><a href="https://github.com/scarpenter7/CreativeProject2.git">GitHub Repo</a></p>
+        <p><a href="https://github.com/jaycelynchino1/CS260-D/tree/main/CreativeProject3/multi">GitHub Repo</a></p>
       </footer>
     </html>
       
