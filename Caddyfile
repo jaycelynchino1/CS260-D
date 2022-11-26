@@ -1,0 +1,15 @@
+Yourserver.compute.amazonaws.com {
+        # Set this path to your site's directory.
+        root * /usr/share/caddy
+
+        # Another common task is to set up a reverse proxy:
+        handle /api/* {
+                reverse_proxy localhost:3000
+        }
+
+        # Enable the static file server.
+
+        file_server
+        # Or serve a PHP site through php-fpm:
+        # php_fastcgi localhost:9000
+}
