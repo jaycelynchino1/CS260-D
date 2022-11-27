@@ -12,4 +12,4 @@ Yourserver.compute.amazonaws.com {
         file_server
         # Or serve a PHP site through php-fpm:
         # php_fastcgi localhost:9000
-}
+}  
